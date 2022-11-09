@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    position:relative;
+    top:0;
+}
+#logo{
+    border-bottom: 3px solid white;
+    border-right:1px solid white ;
+    margin-left:20px;
+    margin-top:10p
+}
+#logo:hover{
+    background-color: black;
+    width:250px;
+    border-bottom: 4px solid white;
+    border-right:2px solid white;
+
+
+}
+
+.carousel{
+    position: relative;
+    top:0;
+}
+.navbar{
+    position:absolute;
+    background-color: transparent;
+}
+.nav-link{
+    font-family:Arial, Helvetica, sans-serif;
+    /* border:2px solid black; */
+    margin-right:12px;
+    color:white;
+}
+.nav{
+
+}
+.current-page{
+    color:black;
+    border-bottom: 3px solid black;
+    border-right:1px solid black;
+    font-size: 17px;
+    background-color:white;
+}
+.nav-link:hover{
+    background-color:white;
+    border-bottom: 3px solid black;
+    border-right:1px solid black;
+    font-size: 17px;
+    color:black;
+    transition: 0.4s ease-in-out;
+}
+.carousel-caption{
+    margin-bottom:260px;
+    margin-right:400px
+}
+.welcome{
+    font-size:70px;
+}
+#nature{
+    margin-left:200px;
+    margin-bottom:150px
+}
+#culture{
+    margin-right:250px;
+    margin-bottom:20px;
+    font-size:50px
+}
+.map{
+    border:2px solid black;
+    background-color:black
+}
+.hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 400px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px 8px;
+    transition: opacity 1s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 40px;
+    top: 120%;
+  }
+  .hovertext:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+  .About_Kerala{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center
+  }
+  .aboutrow{
+    margin-top:30px;
+  }
+  footer{
+    margin-top:30px;
+    text-align:center;
+    border: 1px solid green;
+    background-color: lightgreen;
+  }
+
+    
