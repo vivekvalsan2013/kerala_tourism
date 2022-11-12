@@ -7,8 +7,6 @@ header{
     top:0;
 }
 #logo{
-    border-bottom: 3px solid white;
-    border-right:1px solid white ;
     margin-left:20px;
     margin-top:10p
 }
@@ -107,5 +105,64 @@ header{
     border: 1px solid green;
     background-color: lightgreen;
   }
+  .loginpagebody{
+    background-image: url("../img/vallamkalli.jpg");
+    background-size: cover;
+  }
+  .loginpage{
+    width:400px;
+    /* border: 2px solid red; */
+    margin-top:10%;
+    margin-left:60%;
+    color:black;
+  }
+  .signuppage{
+    
+    /* border:2px solid red; */
+    margin-top:8%;
+    margin-left:50%;
+  }
+  .signupbody{
+    background-image: url("../img/signupbackground.jpg");
+    background-size: cover;
+  }
+  .districtpage{
+    margin-top:80px
+  }
+  .alappuzhabody{
+    background-image: url('../img/Alappuzha_cover.jpg');
+    background-size: cover;
+  }
+.alappuzhalogo{
+    margin-top:170px;
+    margin-left: 36%;
+    padding:20px
+}
+.alapuzhatext{
+    float:left;
+    margin-left:350px;
+    text-align: justify;
+}
+.alapuzhatext:hover{
+    background-color: black;
+    color:white;
+}
+.ernakulambody{
+    background-image: url("../img/alapuzha/ernakulamcover.png");
+    background-size: cover;
+}
+.idukkibody{
+    background-image: url("../img/alapuzha/idukki-COVER.jpg");
+    background-size: cover;
+}
+.kasargodbody{
+    background-image: url("../img/alapuzha/kasargod-COVER.jpg");
+    background-size: cover;
+}
+.kollambody{
+    background-image: url("../img/alapuzha/Kollam-cover.jpg");
+    background-size: cover;
+}
+
 
     
