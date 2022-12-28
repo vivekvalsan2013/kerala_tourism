@@ -10,14 +10,6 @@ header{
     margin-left:20px;
     margin-top:10p
 }
-#logo:hover{
-    background-color: black;
-    width:250px;
-    border-bottom: 4px solid white;
-    border-right:2px solid white;
-
-
-}
 
 .carousel{
     position: relative;
@@ -106,24 +98,42 @@ header{
     background-color: lightgreen;
   }
   .loginpagebody{
-    background-image: url("../img/vallamkalli.jpg");
+    background-color:gray;
     background-size: cover;
   }
   .loginpage{
     width:400px;
     /* border: 2px solid red; */
-    margin-top:10%;
-    margin-left:60%;
+    margin-top:15%;
+    margin-left:25%;
     color:black;
   }
+  #email{
+    width:350px;
+  }
+  #phnumber{
+    width:350px;
+  }
+  #phnerror{
+    width:200px;
+  }
+  #pwderr{
+    width:200px;
+  }
+  #emailerror{
+    width:200px
+  }
+  #pwd{
+    width:350px;
+  }
   .signuppage{
-    
+    float: right;
     /* border:2px solid red; */
-    margin-top:8%;
-    margin-left:50%;
+    margin-top:10%;
+    margin-right:40%;
   }
   .signupbody{
-    background-image: url("../img/signupbackground.jpg");
+    background-color: lightseagreen;
     background-size: cover;
   }
   .districtpage{
